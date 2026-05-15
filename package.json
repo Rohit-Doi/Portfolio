@@ -42,3 +42,12 @@
     "vite": "^6.1.0"
   }
 }
+{
+  "homepage": "https://rohit-doi.github.io/your-repo-name",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"   // ← Vite builds into 'dist' folder
+  }
+}
