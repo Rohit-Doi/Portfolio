@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+guestbook_backend/venv
+guestbook_backend/__pycache__
+guestbook_backend/*.db
+guestbook_backend/drawings
