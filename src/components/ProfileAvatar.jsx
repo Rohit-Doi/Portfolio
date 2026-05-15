@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
+import { assetUrl } from "../utils/assetUrl";
 
-const PROFILE_IMAGE = "/assets/profile/doi.jpeg";
+const PROFILE_IMAGE = assetUrl("assets/profile/doi.jpeg");
 
 const ProfileAvatar = () => {
   return (

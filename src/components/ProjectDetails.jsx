@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { assetUrl } from "../utils/assetUrl";
 
 const ProjectDetails = ({
   title,
@@ -28,7 +29,7 @@ const ProjectDetails = ({
           onClick={closeModal}
           className="absolute top-5 right-5 z-10 rounded-sm bg-midnight p-2 hover:bg-gray-500"
         >
-          <img src="/assets/close.svg" className="h-6 w-6" alt="Close" />
+          <img src={assetUrl("assets/close.svg")} className="h-6 w-6" alt="Close" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <motion.div className="p-5">
@@ -59,7 +60,7 @@ const ProjectDetails = ({
                   className="inline-flex items-center gap-1 font-medium text-royal hover-animation"
                 >
                   Live site
-                  <img src="/assets/arrow-up.svg" className="size-4" alt="" />
+                  <img src={assetUrl("assets/arrow-up.svg")} className="size-4" alt="" />
                 </a>
               ) : null}
               {href ? (
@@ -70,7 +71,7 @@ const ProjectDetails = ({
                   className="inline-flex items-center gap-1 font-medium hover-animation"
                 >
                   GitHub
-                  <img src="/assets/arrow-up.svg" className="size-4" alt="" />
+                  <img src={assetUrl("assets/arrow-up.svg")} className="size-4" alt="" />
                 </a>
               ) : null}
               {!hasLinks ? (

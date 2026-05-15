@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { assetUrl } from "../utils/assetUrl";
 
 const skillLogoMap = {
   HTML: "html5.svg",
@@ -101,7 +102,7 @@ export default function Skills() {
                 >
                   {skillLogoMap[skill] && (
                     <img
-                      src={`assets/logos/${skillLogoMap[skill]}`}
+                      src={assetUrl(`assets/logos/${skillLogoMap[skill]}`)}
                       alt={`${skill} logo`}
                       className="w-6 h-6 object-contain"
                     />

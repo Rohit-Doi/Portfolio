@@ -1,4 +1,6 @@
-const RESUME_URL = "/assets/Resume.pdf";
+import { assetUrl } from "../utils/assetUrl";
+
+const RESUME_URL = assetUrl("assets/Resume.pdf");
 
 const ResumeFab = () => {
   return (
