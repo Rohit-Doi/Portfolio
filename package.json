@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rohit-doi.github.io/Portfolio/",
   "scripts": {
     "dev": "vite",
     "guestbook-api": "guestbook_backend\\venv\\Scripts\\python.exe -m uvicorn guestbook_backend.main:app --reload --host 127.0.0.1 --port 8000",
