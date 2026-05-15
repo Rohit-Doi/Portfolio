@@ -43,7 +43,7 @@
   }
 }
 {
-  "homepage": "https://Rohit-Doi.github.io/Portfolio",
+  "homepage": "https://rohit-doi.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
