@@ -1,5 +1,4 @@
 import { motion, useScroll, useSpring, useTransform } from "motion/react";
-import { assetUrl } from "../lib/assetUrl";
 
 const ParallaxBackground = () => {
   const { scrollYProgress } = useScroll();
@@ -16,7 +15,7 @@ const ParallaxBackground = () => {
         <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
-            backgroundImage: `url(${assetUrl("assets/sky2.jpg")})`,
+            backgroundImage: "url(/assets/sky2.jpg)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -25,7 +24,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-30"
           style={{
-            backgroundImage: `url(${assetUrl("assets/mountain-7.png")})`,
+            backgroundImage: "url(/assets/mountain-7.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
@@ -39,7 +38,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-15 pointer-events-none"
           style={{
-            backgroundImage: `url(${assetUrl("assets/planets.png")})`,
+            backgroundImage: "url(/assets/planets.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             opacity: 0.8,
@@ -50,7 +49,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-20"
           style={{
-            backgroundImage: `url(${assetUrl("assets/mountain-6.png")})`,
+            backgroundImage: "url(/assets/mountain-6.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,
@@ -60,7 +59,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-10"
           style={{
-            backgroundImage: `url(${assetUrl("assets/mountain-1.png")})`,
+            backgroundImage: "url(/assets/mountain-1.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain1Y,

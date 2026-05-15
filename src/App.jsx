@@ -8,7 +8,6 @@ import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Certifications from "./sections/Certifications";
-
 import ResumeFab from "./components/ResumeFab";
 
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
         <Testimonial />
         <Certifications />
         <Contact />
-        
         <Footer />
       </div>
       <ResumeFab />

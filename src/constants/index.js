@@ -1,5 +1,3 @@
-import { assetUrl } from "../lib/assetUrl";
-
 export const myProjects = [
   {
     id: 1,
@@ -13,12 +11,12 @@ export const myProjects = [
     href: "https://github.com/Rohit-Doi/Skill",
     liveHref: "https://skillmatch12.vercel.app",
     logo: "",
-    image: assetUrl("assets/projects/Skill.png"),
+    image: "/assets/projects/Skill.png",
     tags: [
-      { id: 1, name: "Python", path: assetUrl("assets/logos/Python-logo-notext.svg.png") },
-      { id: 2, name: "NLP", path: assetUrl("assets/logos/huggingface_logo-noborder.svg") },
-      { id: 3, name: "FastAPI", path: assetUrl("assets/logos/FastAPI_logo.svg.png") },
-      { id: 4, name: "Next.js", path: assetUrl("assets/logos/Nextjs-logo.svg.png") },
+      { id: 1, name: "Python", path: "/assets/logos/Python-logo-notext.svg.png" },
+      { id: 2, name: "NLP", path: "/assets/logos/huggingface_logo-noborder.svg" },
+      { id: 3, name: "FastAPI", path: "/assets/logos/FastAPI_logo.svg.png" },
+      { id: 4, name: "Next.js", path: "/assets/logos/Nextjs-logo.svg.png" },
     ],
   },
   {
@@ -30,12 +28,12 @@ export const myProjects = [
     href: "https://github.com/Rohit-Doi/HPLPG",
     liveHref: null,
     logo: "",
-    image: assetUrl("assets/projects/hplpg.jpg"),
+    image: "/assets/projects/hplpg.jpg",
     tags: [
-      { id: 1, name: "Next.js", path: assetUrl("assets/logos/Nextjs-logo.svg.png") },
-      { id: 2, name: "FastAPI", path: assetUrl("assets/logos/FastAPI_logo.svg.png") },
-      { id: 3, name: "Python", path: assetUrl("assets/logos/Python-logo-notext.svg.png") },
-      { id: 4, name: "Tailwind CSS", path: assetUrl("assets/logos/tailwindcss.svg") },
+      { id: 1, name: "Next.js", path: "/assets/logos/Nextjs-logo.svg.png" },
+      { id: 2, name: "FastAPI", path: "/assets/logos/FastAPI_logo.svg.png" },
+      { id: 3, name: "Python", path: "/assets/logos/Python-logo-notext.svg.png" },
+      { id: 4, name: "Tailwind CSS", path: "/assets/logos/tailwindcss.svg" },
     ],
   },
   {
@@ -50,11 +48,11 @@ export const myProjects = [
     href: null,
     liveHref: null,
     logo: "",
-    image: assetUrl("assets/projects/bus.png"),
+    image: "/assets/projects/bus.png",
     tags: [
-      { id: 1, name: "Python", path: assetUrl("assets/logos/Python-logo-notext.svg.png") },
-      { id: 2, name: "YOLO / CV", path: assetUrl("assets/logos/huggingface_logo-noborder.svg") },
-      { id: 3, name: "Video", path: assetUrl("assets/logos/javascript.svg") },
+      { id: 1, name: "Python", path: "/assets/logos/Python-logo-notext.svg.png" },
+      { id: 2, name: "YOLO / CV", path: "/assets/logos/huggingface_logo-noborder.svg" },
+      { id: 3, name: "Video", path: "/assets/logos/javascript.svg" },
     ],
   },
   {
@@ -69,11 +67,11 @@ export const myProjects = [
     href: null,
     liveHref: null,
     logo: "",
-    image: assetUrl("assets/projects/layout.jpeg"),
+    image: "/assets/projects/layout.jpeg",
     tags: [
-      { id: 1, name: "Python", path: assetUrl("assets/logos/Python-logo-notext.svg.png") },
-      { id: 2, name: "Detectron2", path: assetUrl("assets/logos/huggingface_logo-noborder.svg") },
-      { id: 3, name: "Annotation", path: assetUrl("assets/logos/Figma-logo.svg.png") },
+      { id: 1, name: "Python", path: "/assets/logos/Python-logo-notext.svg.png" },
+      { id: 2, name: "Detectron2", path: "/assets/logos/huggingface_logo-noborder.svg" },
+      { id: 3, name: "Annotation", path: "/assets/logos/Figma-logo.svg.png" },
     ],
   },
 ];
@@ -82,17 +80,17 @@ export const mySocials = [
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/rohit-kamatam-b98443280/",
-    icon: assetUrl("assets/socials/linkedIn.svg"),
+    icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "GitHub",
     href: "https://github.com/Rohit-Doi",
-    icon: assetUrl("assets/logos/GitHub_Invertocat_Logo.svg.png"),
+    icon: "/assets/logos/GitHub_Invertocat_Logo.svg.png",
   },
   {
     name: "Gmail",
     href: "https://mail.google.com/mail/?view=cm&to=rohitkamatam123@gmail.com",
-    icon: assetUrl("assets/logos/gmail.png"),
+    icon: "/assets/logos/gmail.png",
   },
 ];
 
@@ -136,6 +134,6 @@ export const professionalExperiences = [
       "Built intelligent matching algorithms using ML to accurately align candidate profiles with job requirements.",
       "Applied NLP and text analysis techniques to extract structured insights from unstructured resume data.",
     ],
-    certificateSrc: assetUrl("assets/experience/infosys.png"),
+    certificateSrc: "/assets/experience/infosys.png",
   },
 ];

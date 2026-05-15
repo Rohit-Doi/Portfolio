@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { assetUrl } from "../lib/assetUrl";
 import { useState, useEffect, useCallback } from "react";
 import CertificateModal from "../components/CertificateModal";
 
@@ -43,7 +42,7 @@ const certifications = [
   },
 ].map((c) => ({
   ...c,
-  image: assetUrl(`assets/certificates/${encodeURIComponent(c.file)}`),
+  image: `/assets/certificates/${encodeURIComponent(c.file)}`,
 }));
 
 const ROTATE_MS_MIN = 5000;

@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
-            href={`${import.meta.env.BASE_URL}`}
+            href="#home"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
             Rohit K
@@ -58,7 +58,7 @@ const Navbar = () => {
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
             <img
-              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
+              src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}
               className="w-6 h-6"
               alt="toggle"
             />

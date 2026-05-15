@@ -72,7 +72,7 @@ const HeroText = () => {
         </div>
       </div>
       {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
+      <motion.div className="flex flex-col space-y-6 md:hidden">
         <motion.p
           className="text-4xl font-medium"
           variants={variants}
@@ -104,7 +104,7 @@ const HeroText = () => {
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-black text-neutral300"
+            className="text-4xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -113,7 +113,7 @@ const HeroText = () => {
             Web Applications
           </motion.p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
