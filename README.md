@@ -14,8 +14,7 @@ A modern, animated developer portfolio built with React, Three.js, Tailwind CSS,
 - [Skills](#skills)
 - [Achievements & Certificates](#achievements--certificates)
 - [Contact](#contact)
-- 
-
+  
 ---
 
 ## ✨ About
