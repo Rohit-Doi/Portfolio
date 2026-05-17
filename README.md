@@ -30,8 +30,7 @@ This portfolio prototype is designed to highlight projects, experience, certific
 - 🔥 Immersive 3D visuals powered by **React Three Fiber** and **Three.js**
 - ✨ Smooth animations with **motion/react** and **Framer Motion**
 - 🎨 Responsive layout styled with **Tailwind CSS**
-- 🧳 Portfolio sections for About, Projects, Experience, Certifications, Guestbook, and Contact
-- 💬 Guestbook backend support with **Python** and **FastAPI**
+- 🧳 Portfolio sections for About, Projects, Experience, Certifications, and Contact
 - 🚀 Fast local development with **Vite**
 
 ---
@@ -49,7 +48,6 @@ This portfolio prototype is designed to highlight projects, experience, certific
 | motion/react      | Animation primitives and motion controls     |
 | Framer Motion     | High-level animation library                 |
 | Python            | Guestbook backend logic                      |
-| FastAPI           | Backend API server for the guestbook         |
 
 ---
 
